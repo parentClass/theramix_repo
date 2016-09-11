@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Theramix.health</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <link href="http://materializecss.com/templates/starter-template/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Modak|Montserrat|Lobster|Pacifico|Kaushan+Script|Satisfy" rel="stylesheet"> 
+</head>
+<body>
+
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <h1 class="header center white-text" data-activates="slide-out"></h1>
+    </div>
+  </div>
+
+  <div class="container">
+  	<div class="row agenda">
+	    <div class="card-panel transparent">
+	      <h5 class="card-header">
+	      	Agenda
+	      </h5>
+	      <div class="divider"></div>
+	      <div class="row">
+	      	<div class="col s12">
+	      		<p class="agenda-body">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mollis lacus id diam volutpat, et tincidunt augue mollis. 
+					Suspendisse dignissim et elit eu volutpat. Cras dictum justo elit, pretium placerat dolor pharetra quis. Nullam maximus ipsum non purus consequat consectetur.
+					Proin dictum nunc dignissim ornare posuere. Duis dignissim ante sed feugiat lobortis. Donec velit felis, fringilla laoreet augue sit amet, vestibulum maximus nisi.
+					Aliquam eu augue sit amet nulla ultricies convallis in nec massa. Nulla bibendum leo quis commodo dapibus. Aenean viverra viverra magna eu blandit.
+					Donec rhoncus felis nec sapien vulputate vehicula nec in metus. Proin eu mauris non urna malesuada aliquet ac eget ante. Sed a dui egestas, dignissim velit non, hendrerit ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tincidunt, urna imperdiet ultricies ornare, arcu nunc luctus nisl, quis commodo lectus eros ac nibh.
+					Quisque placerat at libero non fringilla.
+	      		</p>
+	      	</div>
+	      </div>
+	  </div>
+   </div>
+   <div class="fixed-action-btn vertical" style="bottom: 45px; right: 50px;">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+      <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+      <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+      <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+    </ul>
+  </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/typed.js"></script>
+  <script type="text/javascript">
+  	$(function(){
+        $(".header").typed({
+            strings: ["Therapy + Bluemix = ^1500 Theramix.health", "a tool for therapists .^1000.^1000.", "know more about your patient .^1000.^1000.","<b class='header-last'>Theramix.health</b>"],
+            typeSpeed: 10,
+            showCursor: true,
+            cursorChar: "_",
+            callback: function() {(
+            	$(".agenda").fadeIn("300")
+            )},
+        });
+    });
+  </script>
+  </body>
+</html>

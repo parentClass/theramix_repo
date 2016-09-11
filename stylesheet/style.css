@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+body{
+	background: url('../images/landing7.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header{
+	font-family:'Montserrat';
+	display: inline-block;
+	cursor: pointer;
+}
+
+.header-last{
+	font-family: 'Satisfy';
+}
+
+.card-header{
+	font-family: 'Montserrat';
+}
+
+.agenda{
+	display: none;
+}
+
+.agenda-body{
+	text-indent: 50px;
+	margin-top: 25px;
+}
+
+.card-panel{
+	border: 1px white solid;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+    font-size: 80px;
+    padding-left: 15px;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+sub{
+	font-size: 10px;
+	text-decoration: none;
+}
